@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+  @apply bg-primary mb-4 border border-opacity-40 p-1;
+}
+.contactTopHeadings {
+  @apply text-3xl leading-10 text-blue-400 font-bold mb-12;
+}
+
+.contactCardHeading {
+  @apply text-white tracking-wider leading-6 mb-3;
+}
+
+.contactCardText {
+  @apply text-contactText text-base font-normal leading-5 mb-2;
+}
